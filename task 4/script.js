@@ -1,7 +1,6 @@
 var text = document.getElementById("result");
 
-document.getElementById('find').onclick=function findGroup(){
-    
+function findGroup(){    
     var name=document.getElementById("text").value;    
     if(name.charAt(1)=='1')
     {        
@@ -15,7 +14,8 @@ document.getElementById('find').onclick=function findGroup(){
     }
     else if(name.charAt(1)=='3')
     {
-        text.innerHTML=name+'-axsham qrupudur';        
+        text.innerHTML=name+'-axsham qrupudur';  
+        text.style.color='black';      
     }
     else
     {
