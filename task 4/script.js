@@ -20,5 +20,6 @@ function findGroup(){
     else
     {
         text.innerHTML='Duzgun daxil edilmeyib';
+        text.style.color='gray'; 
     }
 }
